@@ -12,3 +12,4 @@ A project as part of my Web Development Bootcamp.
 
 ## Resources
 - [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+- [Font Awesome](https://fontawesome.com/)
