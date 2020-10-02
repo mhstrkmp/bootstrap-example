@@ -10,11 +10,21 @@ $font-family-base: Arial;
 
 // Add you custom CSS
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
 body {
   margin: 20px;
 }
 
 .hero {
-  margin-top: 5rem;
-  min-height: 60vh;
+  min-height: 100vh;
+}
+
+.contact {
 }
