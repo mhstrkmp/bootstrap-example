@@ -1,6 +1,9 @@
 # Bootstrap Portfolio Fun
 A project as part of my Web Development Bootcamp.
 
+[View website at GitHub pages](https://mhstrkmp.github.io/bootstrap-portfolio-fun/)
+
+
 ## Goals
 - build a personal website
 - learn to use Bootstrap
