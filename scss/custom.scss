@@ -1,8 +1,8 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: #000;
-$body-color: white;
-$primary: hotpink;
+$body-bg: white;
+$body-color: black;
+$primary: blue;
 $font-family-base: Arial;
 
 // Include all Bootstrap
@@ -12,4 +12,8 @@ $font-family-base: Arial;
 
 body {
   margin: 20px;
+}
+
+.hero {
+  min-height: 60vh;
 }
