@@ -9909,4 +9909,15 @@ body {
   min-height: 100vh;
 }
 
+.about,
+.projects {
+  min-height: 60vh;
+}
+
+.contact {
+  margin: 5em auto;
+  padding: 2.5em 0;
+  font-size: 2em;
+}
+
 /*# sourceMappingURL=custom.css.map */
