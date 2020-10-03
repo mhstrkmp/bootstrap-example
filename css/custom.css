@@ -9893,14 +9893,6 @@ h3 {
     border-color: #dee2e6;
   }
 }
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-}
-
 body {
   margin: 20px;
 }
@@ -9909,15 +9901,20 @@ body {
   min-height: 100vh;
 }
 
+.hero-text {
+  width: 66%;
+  margin: 0 3em;
+}
+
 .about,
 .projects {
   min-height: 60vh;
 }
 
 .contact {
-  margin: 5em auto;
-  padding: 2.5em 0;
-  font-size: 2em;
+  margin: 5rem auto;
+  padding: 2.5rem 0;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=custom.css.map */
