@@ -9893,20 +9893,17 @@ h3 {
     border-color: #dee2e6;
   }
 }
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-}
-
 body {
   margin: 20px;
 }
 
 .hero {
   min-height: 100vh;
+}
+
+.hero-text {
+  width: 66%;
+  margin: 0 3em;
 }
 
 .about,
