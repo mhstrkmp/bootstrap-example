@@ -14,15 +14,12 @@ body {
   margin: 20px;
 }
 
-.hero {
-  min-height: 100vh;
-}
-
 .hero-text {
   width: 66%;
   margin: 0 3em;
 }
 
+/* Why does a min-vh-60 class in html not work??? */
 .about,
 .projects {
   min-height: 60vh;
