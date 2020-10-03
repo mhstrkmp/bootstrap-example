@@ -3,7 +3,7 @@
 $body-bg: white;
 $body-color: black;
 $primary: blue;
-$font-family-base: Arial;
+$font-family-base: "IBM Plex Mono", monospace;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -19,7 +19,7 @@ body {
   margin: 0 3em;
 }
 
-/* Why does a min-vh-60 class in html not work??? */
+// Why does a min-vh-60 class in html not work like in hero-section???
 .about,
 .projects {
   min-height: 60vh;
