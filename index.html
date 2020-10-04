@@ -18,6 +18,9 @@
       @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
     </style>
 
+    <!-- Import css of prism.js for code highlighting -->
+    <link href="css/prism.css" rel="stylesheet" />
+
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/c556f4274e.js"
@@ -77,20 +80,35 @@
       <section id="about">
         <div class="text-center">
           <h2>About me</h2>
-          <div class="container about">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-3 my-3">👶 Father</div>
-                <div class="col-md-3 my-3">👷‍♂️ Craftsman</div>
-                <div class="col-md-3 my-3">🐝 Beekeeper</div>
-                <div class="col-md-3 my-3">⛵️ Sailor</div>
-                <div class="col-md-6 my-3">☕️ Loves coffee</div>
-                <div class="col-md-6 my-3">👨‍💻 Future Web Developer</div>
-              </div>
-            </div>
-
-            <p>Need details? Feel free to<a href="#contact"> contact me.</a></p>
-          </div>
+          <div class="container">
+          <pre>
+            <code class="language-javascript">
+              let mhstrkmp = {
+                firstname: "Matthias",
+                lastname: "Heisterkamp",
+                hasChildren: true,
+                profession: "craftsman",
+                status: "🤷‍♂️",
+                fuel: "☕️ coffee",
+                interests: ["🧗‍♂️ bouldering", "🏄‍♂️ surfing", "⛵️ sailing", "🐝 beekeeping"]
+              };
+              
+              
+              function newProfession(newProfession) {
+                let result;
+                if (newProfession === "Web Developer") {
+                  mhstrkmp.profession = newProfession;
+                  mhstrkmp.status = "🚀";
+                  result = "Ceep calm and do epic shit!";
+                } else {
+                  result = "WTF";
+                }
+                return result + " " + mhstrkmp.status;
+              }
+              
+              newProfession("Web Developer");
+            </code>
+          </pre> 
         </div>
       </section>
 
@@ -232,5 +250,7 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <!-- Import prism.js for code highlighting -->
+    <script src="prism.js"></script>
   </body>
 </html>
