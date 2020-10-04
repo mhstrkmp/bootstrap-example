@@ -20,6 +20,8 @@ $navbar-dark-hover-color: $primary;
 $navbar-dark-disabled-color: $primary;
 $navbar-dark-toggler-border-color: none;
 
+$card-bg: #020c1b;
+
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -34,21 +36,14 @@ h1 {
   margin: 0 3em;
 }
 
-// Why does a min-vh-60 class in html not work like in hero-section???
-.about,
-.projects {
-  // min-height: 60vh;
-}
-
-.about {
-}
-
 .projects {
   margin-top: 3rem;
+}
+
+.fa-external-link-alt {
+  font-size: 1.5rem;
 }
 
 .contact {
-  margin-top: 3rem;
-  // padding: 2.5rem 0;
   font-size: 1.5rem;
 }
