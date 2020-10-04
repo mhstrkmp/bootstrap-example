@@ -3,8 +3,15 @@
 $body-bg: #0a192f;
 $body-color: #e6f1ff;
 $primary: #64ffda;
-$secondary: rgba(100, 255, 218, 0.1);
+$secondary: #e6f1ff;
+
+$text-muted: rgba(100, 255, 218, 0.4);
 $font-family-base: "IBM Plex Mono", monospace;
+
+$navbar-dark-color: $primary;
+$navbar-dark-hover-color: $secondary;
+$navbar-dark-disabled-color: $primary;
+$navbar-dark-toggler-border-color: none;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
