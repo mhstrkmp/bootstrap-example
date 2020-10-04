@@ -9893,23 +9893,17 @@ h3 {
     border-color: #dee2e6;
   }
 }
-body {
-  margin: 20px;
-}
-
 .hero-text {
   width: 66%;
   margin: 0 3em;
 }
 
-.about,
 .projects {
-  min-height: 60vh;
+  margin-top: 3rem;
 }
 
 .contact {
-  margin: 5rem auto;
-  padding: 2.5rem 0;
+  margin-top: 3rem;
   font-size: 1.5rem;
 }
 
