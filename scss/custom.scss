@@ -1,15 +1,22 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
+
+$slate: #8892b0;
+$light-slate: #a8b2d1;
+$lightest-slate: #ccd6f6;
+$white: $lightest-slate;
+
 $body-bg: #0a192f;
-$body-color: #e6f1ff;
+$body-color: $light-slate;
 $primary: #64ffda;
-$secondary: #e6f1ff;
+$secondary: $lightest-slate;
 
-$text-muted: rgba(100, 255, 218, 0.4);
+$text-muted: $slate;
 $font-family-base: "IBM Plex Mono", monospace;
+$enable-responsive-font-sizes: true;
 
-$navbar-dark-color: $primary;
-$navbar-dark-hover-color: $secondary;
+$navbar-dark-color: $slate;
+$navbar-dark-hover-color: $primary;
 $navbar-dark-disabled-color: $primary;
 $navbar-dark-toggler-border-color: none;
 
@@ -17,6 +24,10 @@ $navbar-dark-toggler-border-color: none;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Add you custom CSS
+
+h1 {
+  color: $lightest-slate;
+}
 
 .hero-text {
   width: 66%;
