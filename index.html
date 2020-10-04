@@ -32,7 +32,7 @@
   <body>
     <header class="mb-5">
       <!-- add navigation here -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <a href="#" class="navbar-brand">Matthias Heisterkamp</a>
         <button
           class="navbar-toggler"
@@ -48,7 +48,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="#about"
                 >About <span class="sr-only">(current)</span></a
               >
@@ -68,7 +68,7 @@
         <div class="hero min-vh-100 d-flex flex-column justify-content-center">
           <div class="row justify-content-center">
             <div class="hero-text text-right">
-              <h1>Matthias Heisterkamp</h1>
+              <h1 class="display-2">Matthias Heisterkamp</h1>
               <p class="text-muted">
                 Breaking things and fixing them professionally ...
               </p>
@@ -77,43 +77,51 @@
         </div>
       </section>
 
-      <section id="about">
-        <div class="text-center">
+      <section id="about" class="about text-center">
+        <div>
           <h2>About me</h2>
-          <div class="container">
-          <pre>
+          <div class="container pt-5 pb-5">
+            <pre>
             <code class="language-javascript">
               let mhstrkmp = {
                 firstname: "Matthias",
                 lastname: "Heisterkamp",
                 hasChildren: true,
                 profession: "craftsman",
-                status: "🤷‍♂️",
+                feelings: "🤷‍♂️",
                 fuel: "☕️ coffee",
-                interests: ["🧗‍♂️ bouldering", "🏄‍♂️ surfing", "⛵️ sailing", "🐝 beekeeping"]
+                interests: ["👨‍💻 programming", "🧗‍♂️ bouldering", "🏄‍♂️ surfing", "⛵️ sailing", "🐝 beekeeping"]
               };
               
-              
-              function newProfession(newProfession) {
+              function newProfession(profession) {
                 let result;
-                if (newProfession === "Web Developer") {
-                  mhstrkmp.profession = newProfession;
-                  mhstrkmp.status = "🚀";
+                if (profession === "Web Developer") {
+                  mhstrkmp.profession = profession;
+                  mhstrkmp.feelings = "🚀";
                   result = "Ceep calm and do epic shit!";
                 } else {
-                  result = "WTF";
+                  result = "🤖 Does not compute ...";
                 }
-                return result + " " + mhstrkmp.status;
+                return result;
               }
+
               
               newProfession("Web Developer");
             </code>
-          </pre> 
+          </pre>
+          </div>
+        </div>
+        <div class="container">
+          <p>I usually don't like to be treated as an object ...</p>
+          <p>
+            Please <a href="#contact" class="text-decoration-none">reach out</a>
+            for further information or just to say hello.
+          </p>
         </div>
       </section>
 
-      <section id="projects">
-        <div class="container text-center">
+      <section id="projects" class="projects">
+        <div class="container text-center pt-5 pt-5">
           <h2>Projects</h2>
           <div class="row">
             <div class="col-sm-12 col-lg-4">
@@ -198,27 +206,36 @@
       </section>
 
       <section id="contact" class="contact">
-        <div class="container text-center my-5">
+        <div class="container text-center">
           <h2>Feeling Social?</h2>
           <div class="container my-3">
             <div class="row py-2">
               <div class="col py-3">
-                <a href="https://github.com/mhstrkmp" target="_blank"
+                <a
+                  href="https://github.com/mhstrkmp"
+                  class="text-decoration-none"
+                  target="_blank"
                   ><i class="fab fa-github"></i> GitHub</a
                 >
               </div>
               <div class="col py-3">
-                <a href="https://codepen.io/mhstrkmp" target="_blank"
+                <a
+                  href="https://codepen.io/mhstrkmp"
+                  class="text-decoration-none"
+                  target="_blank"
                   ><i class="fab fa-codepen"></i> Codepen</a
                 >
               </div>
               <div class="col py-3">
-                <a href="https://codepen.io/mhstrkmp" target="_blank"
-                  ><i class="fab fa-codepen"></i> Twitter</a
+                <a
+                  href="https://twitter.com/mhstrkmp"
+                  class="text-decoration-none"
+                  target="_blank"
+                  ><i class="fab fa-twitter"></i> Twitter</a
                 >
               </div>
               <div class="col py-3">
-                <a href="mailto:hello@mhstrkmp.dev"
+                <a href="mailto:hello@mhstrkmp.dev" class="text-decoration-none"
                   ><i class="far fa-envelope"></i> E-Mail</a
                 >
               </div>
