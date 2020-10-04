@@ -4328,7 +4328,7 @@ input[type=button].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #ccd6f6;
+  background-color: #020c1b;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -9954,6 +9954,10 @@ h1 {
 
 .projects {
   margin-top: 3rem;
+}
+
+.fa-external-link-alt {
+  font-size: 1.5rem;
 }
 
 .contact {

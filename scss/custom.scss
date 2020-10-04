@@ -20,6 +20,8 @@ $navbar-dark-hover-color: $primary;
 $navbar-dark-disabled-color: $primary;
 $navbar-dark-toggler-border-color: none;
 
+$card-bg: #020c1b;
+
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -45,6 +47,10 @@ h1 {
 
 .projects {
   margin-top: 3rem;
+}
+
+.fa-external-link-alt {
+  font-size: 1.5rem;
 }
 
 .contact {
