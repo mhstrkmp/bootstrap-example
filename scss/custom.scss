@@ -36,15 +36,6 @@ h1 {
   margin: 0 3em;
 }
 
-// Why does a min-vh-60 class in html not work like in hero-section???
-.about,
-.projects {
-  // min-height: 60vh;
-}
-
-.about {
-}
-
 .projects {
   margin-top: 3rem;
 }
@@ -54,7 +45,5 @@ h1 {
 }
 
 .contact {
-  margin-top: 3rem;
-  // padding: 2.5rem 0;
   font-size: 1.5rem;
 }
